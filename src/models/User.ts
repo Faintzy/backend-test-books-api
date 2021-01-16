@@ -11,5 +11,11 @@ export class User {
 
     @Column()
     books: string
-    
+
+    @CreateDateColumn()
+    created_at: Date;
+
+    @UpdateDateColumn()
+    updated_at: Date;
+
 }
