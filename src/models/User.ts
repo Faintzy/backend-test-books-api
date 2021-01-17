@@ -7,10 +7,21 @@ export class User {
     id: number;
 
     @Column()
-    username: string;
+    name: string;
 
     @Column()
-    books: string
+    email: string;
+
+    @Column()
+    profile: string;
+
+    @Column()
+    password: string;
+
+    @Column({
+        default: "user"
+    })
+    role: string;
 
     @CreateDateColumn()
     created_at: Date;
