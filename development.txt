@@ -1,0 +1,8 @@
+Foi a primeira vez que fiz o uso do JWT, e não me vejo mais sem usar o mesmo. 
+Tive que me colocar no lugar do desenvolvedor Front-end, construindo a API de maneira que facilite o trabalho dele.
+Me aperfeiçoei mais no uso do Typeorm e do Typescript, usei bastante lógica para fazer tudo funcionar.
+Criei novas ideias para autenticação e apliquei-as no projeto.
+Se eu tivesse mais tempo, colocaria mais segurança na API, tentaria otimizar mais, e adicionaria mais funcionalidades.
+Como por exemplo, imagens do livro e entre outros.
+O desafio em si serviu de muito aprendizado para mim, e me fez reconhecer que posso trabalhar profissionalmente na área.
+Irei usar essa API que criei para um app mobile que futuramente colocarei no meu Github.
