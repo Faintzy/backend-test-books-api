@@ -1,4 +1,5 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { isbn } from '@phuocng/fake-numbers';
 
 @Entity()
 export class Book {
@@ -6,7 +7,9 @@ export class Book {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
+    @Column({
+        default: isbn.fake()
+    })
     isbn: string;
 
     @Column()
@@ -15,7 +18,4 @@ export class Book {
     @Column()
     author: string;
 
-    @Column()
-    author_id: number;
-    
 }

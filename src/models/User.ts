@@ -13,15 +13,17 @@ export class User {
     email: string;
 
     @Column()
-    profile: string;
-
-    @Column()
     password: string;
 
     @Column({
-        default: "user"
+        default: "author"
     })
-    role: string;
+    profile: string;
+
+    @Column({
+        default: '[]'
+    })
+    books: string;
 
     @CreateDateColumn()
     created_at: Date;
